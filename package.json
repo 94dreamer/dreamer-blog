@@ -1,0 +1,11 @@
+{
+  "name": "dreamer-blog",
+  "version": "1.0.0",
+  "description": "94dreamer's blog",
+  "main": "index.js",
+  "author": "zhouzhen",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
