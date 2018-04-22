@@ -2,19 +2,13 @@
  * Created by zhouzhen on 2018/4/16.
  */
 const Koa = require('koa');
-const fs = require('fs');
-const bodyParse = require('koa-bodyparser');
+// const fs = require('fs');
+const router = require('./router');
+const middleware = require('./middleware');
 
 const app = new Koa();
 
-app.use(bodyParse());
-
-/**
- * 根据页面读取文件
- */
-
-const router = require('./router');
-
+middleware(app);
 router(app);
 
 app.listen(3000, () => {
