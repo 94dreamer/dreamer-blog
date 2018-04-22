@@ -1,0 +1,10 @@
+{
+  "globalDependencies": {
+    "node": "registry:dt/node#7.0.0+20170322231424"
+  },
+  "dependencies": {
+    "koa": "registry:dt/koa#2.0.0+20170311193110",
+    "lodash": "registry:dt/lodash#4.14.0+20170324155812",
+    "react": "registry:dt/react#15.0.0+20170324160437"
+  }
+}
