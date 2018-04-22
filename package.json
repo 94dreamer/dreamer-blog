@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "94dreamer's blog",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server server/app.js"
+  },
   "author": "zhouzhen",
   "license": "MIT",
   "dependencies": {
@@ -10,7 +13,8 @@
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",
-    "log4js": "^2.5.3"
+    "log4js": "^2.5.3",
+    "nodemon": "^1.17.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
