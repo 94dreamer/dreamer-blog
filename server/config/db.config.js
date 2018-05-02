@@ -11,6 +11,17 @@ const dbConfig = {
     SHOW_ERROR_MSG: false,
     ERROR_MESSAGE: '发生错误！', //
     ERROR_PAGE: 'http://www.94dreamer.com',
+
+    // 启动端口
+    port: 3301,
+    // 数据库配置
+    database: {
+        DATABASE: 'dreamer_blog',
+        USERNAME: 'root',
+        PASSWORD: '',
+        PORT: '3306',
+        HOST: '127.0.0.1',
+    },
 };
 
 module.exports = dbConfig;
