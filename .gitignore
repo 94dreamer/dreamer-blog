@@ -64,3 +64,5 @@ dist_client
 .uglify
 lib/
 yarn-error.log
+.cache/
+dist/
